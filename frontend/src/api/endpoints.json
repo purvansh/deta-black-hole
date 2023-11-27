@@ -10,17 +10,6 @@
 		"timeout": 0
 	},
 	{
-		"name": "getPhotos",
-		"url": "/photos",
-		"method": "get",
-		"params": ["limit", "offset"]
-	},
-	{
-		"name": "getPhoto",
-		"url": "/photo/{drive_name}",
-		"method": "get"
-	},
-	{
 		"name": "deletePhotos",
 		"url": "/photos",
 		"method": "delete",
